@@ -1,0 +1,15 @@
+junk 1 through 50:
+header
+count number of [alnum]@[alnum].[alphu]{2,}
+ * ^From.*[^ \b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b]{2,}
+  2 or more
+
+junk 51 through 63:
+header
+* ^Subject.
+Is that all?
+
+junk 64 through 66:
+body
+
+junk 67 through 75:
